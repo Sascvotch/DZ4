@@ -1,12 +1,9 @@
 package ru.skypro;
 public class Main {
-
     public static void main(String[] args) {
-
         task1();
         task2();
         task3();
-
     }
 
     public static void task1() {
@@ -35,7 +32,6 @@ public class Main {
         for (int year = beginYear; year <= endYear; year++) {
             if (year % 79 == 0) {
                 System.out.println(year);
-
             }
         }
     }
